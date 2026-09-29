@@ -141,19 +141,4 @@ accounts  ──<  fraud_alerts   (1 account → many alerts)
 | `idx_accounts_name` | `(owner_name)` | Dashboard name lookups |
 | `idx_locations_city` | `(city)` | City-based geo lookups |
 
----
 
-## Gamma PDF Slide — Add This to Your Prompt
-
-> **Add one slide titled "Database Schema — ER Diagram" between Slide 2 and Slide 3:**
->
-> Show an ER diagram with 4 tables:
-> 1. **accounts** (blue) — account_id PK, owner_name, account_type, created_at, country, is_flagged
-> 2. **locations** (teal) — location_id PK, city, country, latitude, longitude
-> 3. **transactions** (orange, central) — txn_id PK, account_id FK, txn_type, amount, currency, txn_timestamp, location_id FK, merchant, notes, recipient_account_id FK
-> 4. **fraud_alerts** (red) — alert_id PK, account_id FK, rule_name, severity, detected_at, details
-> 5. **account_spending_stats** (purple, VIEW) — account_id, total_txns, avg_amount, variance_amount, min_amount, max_amount
->
-> Relationships: accounts→transactions (1 to many, twice — sender and recipient), locations→transactions (1 to many), accounts→fraud_alerts (1 to many), transactions→account_spending_stats (derived view, dashed line).
-> Note that recipient_account_id is a self-referencing FK on the transactions table enabling transfer chain detection.
-> Dark background, crow's foot notation, PK/FK labels clearly marked.
