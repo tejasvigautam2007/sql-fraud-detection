@@ -13,12 +13,12 @@ This project demonstrates advanced SQL techniques (CTEs, window functions, self-
 | Phase | Focus | Status |
 |-------|-------|--------|
 | **Phase 1** | Schema Design + Seed Data | ✅ Done |
-| **Phase 2** | Rapid-Fire Transactions (30-second rule) | 🔲 Pending |
-| **Phase 3** | Unusual Amount Detection (Z-score / stddev) | 🔲 Pending |
-| **Phase 4** | Geo-Impossible Transactions | 🔲 Pending |
-| **Phase 5** | Smurfing — Many Accounts → One Receiver | 🔲 Pending |
-| **Phase 6** | Money Laundering Chains (Recursive CTE) | 🔲 Pending |
-| **Phase 7** | Fraud Score Dashboard + Indexes | 🔲 Pending |
+| **Phase 2** | Rapid-Fire Transactions (30-second rule) | ✅ Done |
+| **Phase 3** | Unusual Amount Detection (Z-score / stddev) | ✅ Done |
+| **Phase 4** | Geo-Impossible Transactions | ✅ Done |
+| **Phase 5** | Smurfing — Many Accounts → One Receiver | ✅ Done |
+| **Phase 6** | Money Laundering Chains (Recursive CTE) | ✅ Done |
+| **Phase 7** | Fraud Score Dashboard + Indexes | ✅ Done |
 
 ---
 
