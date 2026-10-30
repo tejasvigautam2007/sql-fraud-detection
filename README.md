@@ -24,7 +24,6 @@ This project demonstrates advanced SQL techniques (CTEs, window functions, self-
 
 ## Tech Stack
 
-- **Database:** SQLite (portable, zero-install) — scripts also compatible with PostgreSQL
 - **Language:** SQL (pure)
 - **Tools:** Python (for seeding fake data via `faker`)
 
