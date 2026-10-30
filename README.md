@@ -1,4 +1,4 @@
-# 🕵️ SQL Fraud Detection Engine
+#  SQL Fraud Detection Engine
 
 > Build a database of banking transactions and make **SQL itself detect suspicious behavior**.
 
@@ -8,21 +8,21 @@ This project demonstrates advanced SQL techniques (CTEs, window functions, self-
 
 ---
 
-## 📦 Phases
+## Phases
 
-| Phase | Focus | Status |
-|-------|-------|--------|
-| **Phase 1** | Schema Design + Seed Data | ✅ Done |
-| **Phase 2** | Rapid-Fire Transactions (30-second rule) | ✅ Done |
-| **Phase 3** | Unusual Amount Detection (Z-score / stddev) | ✅ Done |
-| **Phase 4** | Geo-Impossible Transactions | ✅ Done |
-| **Phase 5** | Smurfing — Many Accounts → One Receiver | ✅ Done |
-| **Phase 6** | Money Laundering Chains (Recursive CTE) | ✅ Done |
-| **Phase 7** | Fraud Score Dashboard + Indexes | ✅ Done |
+| Phase | Focus | 
+|-------|-------|
+| **Phase 1** | Schema Design + Seed Data |
+| **Phase 2** | Rapid-Fire Transactions (30-second rule) |
+| **Phase 3** | Unusual Amount Detection (Z-score / stddev) |
+| **Phase 4** | Geo-Impossible Transactions |
+| **Phase 5** | Smurfing — Many Accounts → One Receiver |
+| **Phase 6** | Money Laundering Chains (Recursive CTE) |
+| **Phase 7** | Fraud Score Dashboard + Indexes |
 
 ---
 
-## 🗃️ Tech Stack
+## Tech Stack
 
 - **Database:** SQLite (portable, zero-install) — scripts also compatible with PostgreSQL
 - **Language:** SQL (pure)
@@ -30,7 +30,7 @@ This project demonstrates advanced SQL techniques (CTEs, window functions, self-
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 sql-fraud-detection/
@@ -55,7 +55,7 @@ sql-fraud-detection/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # 1. Install Python deps
@@ -70,7 +70,7 @@ sqlite3 db/fraud.db < queries/03_rapid_transactions.sql
 
 ---
 
-## 🔍 Detection Rules
+## Detection Rules
 
 ### Phase 2 — Rapid-Fire Transactions
 > Same account, 2+ transactions within 30 seconds → card testing attack
